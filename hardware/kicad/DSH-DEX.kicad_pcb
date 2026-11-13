@@ -12393,7 +12393,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "0805W8F4300T5E"
+		(property "MPN" "0805W8F430JT5E"
 			(at 0 0 180)
 			(layer "B.SilkS")
 			(hide yes)
@@ -12406,7 +12406,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC Part #" "C42000"
+		(property "LCSC Part #" "C4368"
 			(at 0 0 180)
 			(layer "B.SilkS")
 			(hide yes)

@@ -4,7 +4,7 @@ The Fusion and STEP files lay out the seven original enclosure solids with space
 
 ## Send to the print shop
 
-Upload the seven STL files in `Print-STLs` individually. Order one of each at 100% scale in millimeters. Use the colors below. Ask the shop to keep the rail channels, magnet pockets, screw pilots, and registration pins clear when removing supports and finishing. The tray exports with its back down, the stationary frame with its rails up, and the carriers, panels, and emblem with their front faces down. The shop can adjust orientation and supports for its process.
+Unzip the [print files](DSH-DEX-Print-STLs.zip) and upload the seven [STLs](Print-STLs/) individually. Order one of each at 100% scale in millimeters. Use the colors below. Ask the shop to keep the rail channels, magnet pockets, screw pilots, and registration pins clear when removing supports and finishing. The tray exports with its back down, the stationary frame with its rails up, and the carriers, panels, and emblem with their front faces down. The shop can adjust orientation and supports for its process.
 
 | File | Color | Part |
 | --- | --- | --- |

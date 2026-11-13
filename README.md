@@ -17,7 +17,7 @@ so basically i wanted to make a little pokemon pet that fits on a keychain. you 
 
 ## restore the cad files
 
-if you want the original assembled model or the pcb in 3d, download the repo and run `sh restore-cad.sh` from the repo folder. it'll put the Fusion file in `enclosure/` and the board STEP and 3d models in `hardware/`.
+if you want the original assembled model or the pcb in 3d, download the repo and run `sh restore-cad.sh` from the repo folder. it'll put the Fusion assembly in `enclosure/`, the board STEP in `hardware/`, and the KiCad 3d models in `hardware/kicad/3dmodels/`.
 
 ## where its at rn
 
