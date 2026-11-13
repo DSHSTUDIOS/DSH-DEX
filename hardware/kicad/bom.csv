@@ -1,0 +1,34 @@
+Designator,Quantity,Value,Manufacturer,MPN,Footprint,LCSC Part #,Assembly
+U1,1,ESP32-C3-MINI-1 4 MB PCB antenna,Espressif,ESP32-C3-MINI-1-N4,Custom Espressif MINI-1 53-pad land pattern,C2838502,Check JLCPCB tier and stock
+U2,1,4.20 V LiPo charger,Microchip,MCP73831T-2ACI/OT,SOT-23-5,C424093,Check JLCPCB tier and stock
+U3,1,3.3 V 600 mA LDO,Diodes Inc.,AP2112K-3.3TRG1,SOT-23-5,C51118,JLCPCB Extended
+U4,1,3-axis accelerometer,STMicroelectronics,LIS3DHTR,LGA-16 3x3 mm 0.5 mm LayoutBorder3x5y,C15134,Check JLCPCB tier and stock
+U5,1,38 kHz IR receiver,Vishay,TSOP38238,Vishay MINICAST-3Pin THT,C141632,Hand install
+U6,1,USB 2.0 data switch,Texas Instruments,TS3USB221ARSER,Texas UQFN-10 1.5x2 mm 0.5 mm RSE,C128396,Check JLCPCB tier and stock
+J1,1,USB-C USB 2.0 receptacle,Korean Hroparts,TYPE-C-31-M-12,USB_C_Receptacle_HRO_TYPE-C-31-M-12,C165948,Check JLCPCB tier and stock
+J2,1,2-pin 1.00 mm battery connector,JST,BM02B-SRSS-TB(LF)(SN),JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical,C160388,Check JLCPCB tier and stock
+J3,1,OLED plated through-hole interface,,,"1x04, 2.54 mm pitch, 0.90 mm drills (1 GND / 2 VCC / 3 SCL / 4 SDA)",,Plated carrier holes
+DISP1,1,0.96 in SSD1306 128x64 I2C 3.3 V OLED,,,27 x 28 mm module with 4-pin 2.54 mm header,,Verify GND/VCC/SCL/SDA order. Solder module directly into J3 and trim pin tails.
+BT1,1,Protected 1S 4.20 V LiPo 100-150 mAh,,,External pack with verified mating plug and polarity,,Select cell with charge rating >=112 mA and qualified discharge capability
+SW1,1,SPDT ON-ON slide power/charge selector,SHOU HAN,MSK12C02,SW_SPDT_Shouhan_MSK12C02 SMD 8x2.8 mm,C431540,Check JLCPCB tier and stock
+"SW2,SW3,SW4,SW5,SW6,SW7",6,SPST-NO tactile 2 mm high,XUNPU,TS-1088-AR02016,Vendor SMD land pattern 3.9x3 mm body,C720477,Check JLCPCB tier and stock
+Q1,1,P-MOSFET high-side battery switch,AOS,AO3401A,SOT-23 G1 S2 D3,C15127,Check JLCPCB tier and stock
+"Q2,Q3",2,S8050 NPN,JSCJ,S8050 J3Y,SOT-23 B1 E2 C3,C2146,Check JLCPCB tier and stock
+D1,1,Red charge indicator,Hubei KENTO,KT-0603R,LED_0603_1608Metric,C2286,JLCPCB Basic
+D2,1,940 nm top-emitting narrow-angle IR LED,Vishay,VSMY2940G,Custom standard gullwing per Vishay drawing,C499547,Check JLCPCB tier and stock
+D3,1,Two-channel USB ESD clamp,Texas Instruments,TPD2E2U06DCKR,SC-70-3 DCK,C1855726,Check JLCPCB tier and stock
+BZ1,1,Passive external-drive piezo 4 kHz,Murata,PKMCS0909E4000-R1,Vendor two-pad 9x9 mm SMD,C910763,Check JLCPCB tier and stock
+"R1,R2",2,5.1 kOhm 1%,UNI-ROYAL,0603WAF5101T5E,R_0603_1608Metric,C23186,Check JLCPCB tier and stock
+"R3,R6,R7,R8,R9",5,10 kOhm 1%,UNI-ROYAL,0603WAF1002T5E,R_0603_1608Metric,C25804,JLCPCB Basic
+"R4,R13",2,1 kOhm 1%,UNI-ROYAL,0603WAF1001T5E,R_0603_1608Metric,C21190,JLCPCB Basic
+"R5,R15,R18,R19",4,100 kOhm 1%,UNI-ROYAL,0603WAF1003T5E,R_0603_1608Metric,C25803,JLCPCB Basic
+"R10,R11",2,4.7 kOhm 1%,UNI-ROYAL,0603WAF4701T5E,R_0603_1608Metric,C23162,JLCPCB Basic
+"R12,R17",2,100 Ohm 1%,UNI-ROYAL,0603WAF1000T5E,R_0603_1608Metric,C22775,JLCPCB Basic
+R14,1,330 Ohm 1%,UNI-ROYAL,0603WAF3300T5E,R_0603_1608Metric,C23138,Check JLCPCB tier and stock
+R16,1,43 Ohm 1% 0.125 W,UNI-ROYAL,0805W8F430JT5E,R_0805_2012Metric,C4368,"Confirm sourcing. Alternate: Yageo RC0805FR-0743R2L (43.2 ohm, 0805, 125 mW, 1%) JLCPCB C483157."
+"R20,R21",2,0 Ohm,UNI-ROYAL,0603WAF0000T5E,R_0603_1608Metric,C21189,JLCPCB Basic
+C1,1,4.7 uF 25 V X5R,Samsung,CL21A475KAQNNNE,C_0805_2012Metric,C1779,JLCPCB Basic
+C2,1,2.2 uF 25 V X7R,Samsung,CL21B225KAFNNNE,C_0805_2012Metric,C19110,Check JLCPCB tier and stock
+"C3,C4,C5,C6,C10,C15",6,10 uF 25 V X5R,Samsung,CL21A106KAYNNNE,C_0805_2012Metric,C15850,JLCPCB Basic
+"C7,C8,C11,C12,C13,C14",6,100 nF 50 V X7R,Yageo,CC0603KRX7R9BB104,C_0603_1608Metric,C14663,JLCPCB Basic
+C9,1,1 uF 50 V X5R,Samsung,CL10A105KB8NNNC,C_0603_1608Metric,C15849,JLCPCB Basic

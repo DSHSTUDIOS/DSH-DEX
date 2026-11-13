@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "DSH_DEX")(type "KiCad")(uri "${KIPRJMOD}/DSH_DEX.pretty")(options "")(descr "DSH-DEX footprints"))
+  (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/Espressif.pretty")(options "")(descr "Espressif module footprint"))
+)
