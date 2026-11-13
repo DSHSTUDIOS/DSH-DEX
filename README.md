@@ -3,7 +3,19 @@ A portable pokemon themed tomogatchi. Made with :heart: for Dhruv
 
 ### *still in assembly stage*
 
-so basically i wanted to make a little pokemon pet that fits on a keychain. you slide the red half up to see the screen and the white half down to get to the buttons. you can feed it, pet it, shake it to power up an attack, and battle someone else's dex over IR.
+so basically DSH-DEX is a little pokemon pet on a keychain. it's a custom ESP32-C3 pcb with a tiny black and white OLED inside a sliding pokeball.
+
+## why i made it
+
+i made it for Dhruv. i wanted a pokemon pet you could actually carry around and battle another one with, so i put it in a pokeball that slides open.
+
+## how to use it
+
+1. flash the pokemon you want, then use the switch on the side to turn it on.
+2. slide the red half **up** to see the screen and the white half **down** to get to the buttons.
+3. press **FEED** to give it a berry, **PET** to make it happy, or **SELECT** to see its stats.
+4. tap **BATTLE** on both units and point their IR windows at each other. shake during the 3-second countdown to boost your attack. if youre playing alone, hold **BATTLE** for practice.
+5. charge it over USB-C with the power switch off.
 
 ## build files
 
@@ -13,7 +25,23 @@ so basically i wanted to make a little pokemon pet that fits on a keychain. you 
 - **firmware** — flash whichever pokemon you want: [Garchomp #0445](firmware/Garchomp/), [Giratina #0487](firmware/Giratina/), or [Metagross #0376](firmware/Metagross/). use the first-flash file for a blank board and the app file if youre switching pokemon and want to keep your saves. [flash instructions](firmware/README.md) / [source](firmware/dsh_dex/)
 - **sprites** — [72 x 64 monochrome pngs](assets/sprites/) for all three.
 
-![Open split Poké Ball enclosure](enclosure/Open.png)
+## screenshots
+
+### full 3d assembly
+
+the red half slides up and the white half slides down. you can see the pcb, OLED and buttons in the middle.
+
+![Full 3D CAD assembly with the upper shell raised and lower shell lowered](enclosure/Open.png)
+
+### pcb
+
+![KiCad PCB layout showing the front and back copper, pads and board outline](assets/renders/pcb-layout.png)
+
+[3d view of the populated pcb](assets/renders/DSH-DEX-THT-preview.png)
+
+### schematic
+
+[![Full KiCad schematic showing power, ESP32-C3, USB, I2C, controls, audio and IR](assets/renders/schematic.png)](assets/renders/schematic.png)
 
 ## restore the cad files
 
