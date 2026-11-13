@@ -8,7 +8,7 @@ DSH-DEX is an ESP32-C3 virtual pet in a sliding Poké Ball keychain. It uses a 1
 | Order the assembled PCB | [Manufacturing instructions](hardware/manufacturing/README.md), [Gerber ZIP](hardware/manufacturing/DSH-DEX-Gerbers.zip), [assembly BOM and placement files](hardware/manufacturing/Assembly/) |
 | Budget and source the whole build | [Linked BOM with cost estimates](hardware/DSH-DEX-BOM.csv) |
 | Edit the circuit or board | [KiCad project](hardware/kicad/DSH-DEX.kicad_pro), [schematic](hardware/kicad/DSH-DEX.kicad_sch), [PCB](hardware/kicad/DSH-DEX.kicad_pcb) |
-| Print the split enclosure | [Print-shop ZIP](enclosure/DSH-DEX-Split-Print-Shop.zip), [individual STLs](enclosure/Print-STLs/), [assembly notes](enclosure/Assembly-notes.md) |
+| Print the split enclosure | [Print-ready STL ZIP](enclosure/Print-Ready/DSH-DEX-Print-STLs.zip), [separated CAD layout and assembly instructions](enclosure/Print-Ready/README.md) |
 | Open the Fusion model or view the PCB in 3D | [Restore the CAD files](#restore-the-cad-files) |
 | Flash a Pokémon | [Firmware instructions](firmware/README.md), [Garchomp #0445](firmware/Garchomp/), [Giratina #0487](firmware/Giratina/), [Metagross #0376](firmware/Metagross/), [Arduino source](firmware/dsh_dex/) |
 | Try the game on a laptop | [Offline browser preview](preview/DSH-DEX-Preview.html). Download the HTML and open it locally. It runs the earlier Garchomp UI firmware. |
